@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 웹</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/m_style.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="wrap">     
+        <header>
+            <a href="#">
+                <figure class="menu"><img src="img/menuBar_b.png" alt=""></figure>
+            </a>
+            <aside>
+                <div class="aside">
+                    <figure class="logo"><img src="img/logo.png" alt=""></figure>
+                    <ul class="sub_gnb">
+                        <li>
+                            <a href="#">Brand</a>
+                        </li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Sns</a></li>
+                        <li><a href="#">Event</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <figure class="logo"><img src="img/logo.png" alt=""></figure>         
+            <ul class="gnb">
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Sns</a></li>
+                <li><a href="#">Event</a></li>
+            </ul>
+        </header>
+        <div class="main_visual">
+            <figure class="main_img">
+                <img class="main1 on" src="img/main_visual1.jpg" alt="main1">
+            </figure>
+            <div class="title_area">
+                <div class="m_title1 on">
+                    <figure class="logo"><img src="img/logo_w.png" alt=""></figure>
+                    <p>한끼에 담은 오늘의 가치</p>
+                    <h1>일상정미식</h1>
+                </div>
+                <div class="m_title2">
+                    <figure class="logo"><img src="img/logo_w.png" alt=""></figure>
+                    <p>국내산 머릿고기와 토종순대로 깊고 진한</p>
+                    <h1>일미 얼큰순대국</h1>
+                </div>
+                <div class="m_title3">
+                    <figure class="logo"><img src="img/logo_w.png" alt=""></figure>
+                    <p>얼큰 칼칼하게 즐기는</p>
+                    <h1>김치치즈돈까스나베</h1>
+                </div>
+                <div class="m_title4">
+                    <figure class="logo"><img src="img/logo_w.png" alt=""></figure>
+                    <p>통통 쫄깃 쭈꾸미와 삼겹살의 꿀조합</p>
+                    <h1>쭈꾸미 삼겹살</h1>
+                </div>
+                <div class="m_title5">
+                    <figure class="logo"><img src="img/logo_w.png" alt=""></figure>
+                    <p>소곱창과 닭다리의 얼큰한 만남</p>
+                    <h1>순살 곱도리탕</h1>
+                </div>
+            </div>
+            <div class="btn_area">
+                <button class="m_btn1 on">
+                    <p><span><i class="fa-solid fa-arrow-up"></i></span>일상정미식</p>
+                </button>
+                <button class="m_btn2">
+                    <p><span><i class="fa-solid fa-arrow-up"></i></span>일미 얼큰순대국</p>
+                </button>
+                <button class="m_btn3">
+                    <p><span><i class="fa-solid fa-arrow-up"></i></span>김치치즈돈까스나베</p>
+                </button>
+                <button class="m_btn4">
+                    <p><span><i class="fa-solid fa-arrow-up"></i></span>쭈꾸미 삼겹살</p>
+                </button>
+                <button class="m_btn5">
+                    <p><span><i class="fa-solid fa-arrow-up"></i></span>순살 곱도리탕</p>
+                </button>
+            </div>
+        </div>
+        <div class="content inner">
+            <div class="title">
+                <h2>베스트 메뉴를 만나보세요</h2>
+                <p>Best Menu</p>
+            </div> 
+            <ul class="best">
+                <li>
+                    <figure><img src="img/con_img1.png" alt=""></figure>
+                    <span>만두/돈까스/피자/핫도그</span>
+                    <strong>일미통등심돈까스</strong>
+                    <a href="#">자세히보기 <i class="fa-solid fa-arrow-right"></i></a>
+                </li>
+                <li>
+                    <figure><img src="img/con_img2.png" alt=""></figure>
+                    <span>국/탕/찌개</span>
+                    <strong>일미육개장</strong>
+                    <a href="#">자세히보기 <i class="fa-solid fa-arrow-right"></i></a>
+                </li>
+                <li>
+                    <figure><img src="img/con_img3.png" alt=""></figure>
+                    <span>국/탕/찌개</span>
+                    <strong>일미본갈비탕</strong>
+                    <a href="#">자세히보기 <i class="fa-solid fa-arrow-right"></i></a>
+                </li>
+            </ul>
+            <a href="#" class="btn_all">전체보기<i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <div class="sc_visual">
+            <div class="title">
+                <strong>오늘, 뭐 먹지?</strong>
+                <p>
+                    일상을 채우는 행복한 고민,
+                    오늘의 식사는 생애 단 한번뿐이기에
+                    매일 가치 있는 한 끼를 즐길 수 있도록
+                    일상적미식을 제안합니다.
+                </p>
+            </div>
+        </div>
+        <div class="content inner">
+            <div class="title">
+                <h2>일정식미식의 새로운 메뉴를 만나보세요</h2>
+                <p>New Menu</p>
+            </div> 
+            <ul class="new">
+                <li>
+                    <figure><img src="img/con_img4.jpg" alt=""></figure>
+                    <span>만두/돈까스/피자/핫도그</span>
+                    <strong>일미통등심돈까스</strong>
+                    <a href="#">자세히보기 <i class="fa-solid fa-arrow-right"></i></a>
+                </li>
+                <li>
+                    <figure><img src="img/con_img5.jpg" alt=""></figure>
+                    <span>국/탕/찌개</span>
+                    <strong>일미육개장</strong>
+                    <a href="#">자세히보기 <i class="fa-solid fa-arrow-right"></i></a>
+                </li>
+                <li>
+                    <figure><img src="img/con_img6.jpg" alt=""></figure>
+                    <span>국/탕/찌개</span>
+                    <strong>일미본갈비탕</strong>
+                    <a href="#">자세히보기 <i class="fa-solid fa-arrow-right"></i></a>
+                </li>
+            </ul>
+        </div>
+        <section class="content inner">
+            <div class="title">
+                <h2>일정식미식의 소식을 확인해보세요.</h2>
+                <a href="#"><p>sns 더보기 <i class="fa-solid fa-arrow-right"></i></p></a>
+            </div> 
+            <div class="img_area">
+                <div class="sns_img1">
+                    <figure>
+                        <img src="img/snsImg (1).png" alt="">
+                        <p>
+                            <strong>허니순살닭강정</strong>
+                            @daily_gourmet
+                        </p>
+                    </figure>
+                    <figure>
+                        <img src="img/snsImg (2).png" alt="">
+                        <p>
+                            <strong>양념순살닭강정</strong>
+                            @daily_gourmet
+                        </p>
+                    </figure>
+                    <figure class="b_img">
+                        <img src="img/snsImg (2).jpg" alt="">
+                        <p>
+                            <strong>일미닭강정</strong>
+                            @daily_gourmet
+                        </p>
+                    </figure>
+                </div>
+                <div class="sns_img2">
+                    <figure class="b_img">
+                        <img src="img/snsImg (5).jpg" alt="">
+                        <p>
+                            <strong>일미핫도그</strong>
+                            @daily_gourmet
+                        </p>
+                    </figure>
+                    <figure>
+                        <img src="img/food (1).png" alt="">
+                        <p>
+                            <strong>소세지인핫도그</strong>
+                            @daily_gourmet
+                        </p>
+                    </figure>
+                    <figure>
+                        <img src="img/food (3).png" alt="">
+                        <p>
+                            <strong>모짜렐라인핫도그</strong>
+                            @daily_gourmet
+                        </p>
+                    </figure>
+                </div>
+                <div class="sns_img3">                          
+                    <figure>
+                        <img src="img/food (6).png" alt="">
+                        <p>
+                            <strong>바지락칼국수</strong>
+                            @daily_gourmet
+                        </p>
+                    </figure>
+                    <figure class="b_img">
+                        <img src="img/con_img5.jpg" alt="">
+                        <p>
+                            <strong>일미칼국수</strong>
+                            @daily_gourmet
+                        </p>
+                    </figure>
+                    <figure>
+                        <img src="img/food (4).png" alt="">
+                        <p>
+                            <strong>일미돼지국밥</strong>
+                            @daily_gourmet
+                        </p>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="m_footer">
+                <figure class="f_logo">
+                    <img src="img/logo_w.png" alt="">
+                </figure>
+                <p>COPYRIGHT 오늘.ALL RIGHTS RESERVED.</p>
+            </div>      
+            <div class="f_inner">                  
+                <div class="left">
+                    <figure class="f_logo">
+                        <img src="img/logo_w.png" alt="">
+                    </figure>
+                    <p>
+                        <span>개인정보처리방침</span>
+                        | 사업자정보확인 |
+                        이메일무단수집거부 
+                    </p>
+                    <p>재단법인 행복에프엔씨 (오늘 분사무소) 사업자등록번호 106-82-15618 대표자 안범환</p>
+                    <p>주소 서울특별시 용산구 장문로 60</p>
+                    <p><strong>COPYRIGHT 오늘.ALL RIGHTS RESERVED.</strong></p>
+                </div>
+                <div class="right">
+                    <p><strong>일상적미식 고객센터</strong></p>
+                    <p><span class="tel">1670-6045</span></p>
+                    <p>평일(월~금) AM 09:30 ~ PM 05:30</p>
+                    <p>점심시간 AM 11:30 ~ PM 12:30</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('button').on('click', function(){
+                $(this).addClass('on')
+                if($(this).hasClass('on')){
+                    $("button").not(this).removeClass('on');
+                }
+                if($('.m_btn1').hasClass('on')){
+                    $('.main_img img').css('opacity','0').stop().attr('src','img/main_visual1.jpg').animate({opacity: 1}, 500)
+                    $('.m_title1').addClass('on')
+                    $(".title_area > div").not('.m_title1').removeClass('on')
+                }
+                if($('.m_btn2').hasClass('on')){                  
+                    $('.main_img img').css('opacity','0').stop().attr('src','img/main_visual2.jpg').animate({opacity: 1}, 500)
+                    $('.m_title2').addClass('on')
+                    $(".title_area > div").not('.m_title2').removeClass('on')
+                }
+                if($('.m_btn3').hasClass('on')){
+                    $('.main_img img').css('opacity','0').stop().attr('src','img/main_visual4.jpg').animate({opacity: 1}, 500)
+                    $('.m_title3').addClass('on')
+                    $(".title_area > div").not('.m_title3').removeClass('on')
+                }
+                if($('.m_btn4').hasClass('on')){
+                    $('.main_img img').css('opacity','0').stop().attr('src','img/main_visual6.jpg').animate({opacity: 1}, 500)
+                    $('.m_title4').addClass('on')
+                    $(".title_area > div").not('.m_title4').removeClass('on')
+                }
+                if($('.m_btn5').hasClass('on')){
+                    $('.main_img img').css('opacity','0').stop().attr('src','img/main_visual7.jpg').animate({opacity: 1}, 500)
+                    $('.m_title5').addClass('on')
+                    $(".title_area > div").not('.m_title5').removeClass('on')
+                }
+            })
+
+
+            $('.menu').on('click', function(){
+                $('.aside').toggleClass('active')
+                if($('.aside').hasClass('active')){
+                    $('.menu img').attr('src','img/closeIcon.png')
+                    $('aside').css({
+                        background: '#000000b6',
+                    })
+                }
+                else{
+                    $('.menu img').attr('src','img/menuBar_b.png')
+                    $('aside').css({
+                        background: 'none'
+                    })
+                }
+            })
+        })
+    </script>
+</body>
+</html>

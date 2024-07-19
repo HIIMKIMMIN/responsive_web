@@ -1,0 +1,360 @@
+@charset "utf-8";
+
+header{
+    padding: 1% 30%;  
+}
+header .logo{
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+header .logo img{
+    width: auto;
+    height: 100%;
+}
+header .gnb{
+    margin: 30px auto 10px;
+    display: flex; 
+    justify-content: space-between;
+}
+header .gnb li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+}
+header .gnb li a:hover{
+    color: rgba(0, 0, 0, 1);
+}
+.menu{
+    transition: all 0.4s;
+    display: none;
+}
+aside{
+    display: none;
+}
+
+
+
+
+
+/* header */
+
+.main_visual{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+.main_visual .main_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.main_visual .main_img img{
+    position: absolute;
+    top: -300px;
+    opacity: 1;
+}
+.title_area{
+    position: absolute;
+    top: 50%; left: 120px;
+    transform: translateY(-50%);
+    color: #fff;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.title_area > div{
+    display: none;
+}
+.title_area > div.on{
+    display: block;
+}
+.title_area > div .logo{
+    margin-bottom: 20px;
+}
+.title_area > div p{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.title_area > div h1{
+    font-size: 65px;
+    font-weight: 500;
+}
+.btn_area{
+    position: absolute;
+    bottom: 0; left: 50%;
+    transform: translateX(-50%);  
+}
+.btn_area button{
+    width: 150px;
+    padding: 15px 0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+}
+.btn_area button span{
+    display: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn_area button.on span{
+    display: block;
+    margin-bottom: 20px;
+}
+.btn_area .m_btn1{
+    background-color: #362C2B;
+}
+.btn_area .m_btn2{
+    background-color: #E33C33;
+}
+.btn_area .m_btn3{
+    background-color: #FFB60F;
+}
+.btn_area .m_btn4{
+    background-color: #B0A345;
+}
+.btn_area .m_btn5{
+    background-color: #655146;
+}
+
+/* .main_visual */
+
+
+
+.inner{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 5%;
+}
+.content .title{
+    text-align: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+.content .title::after{
+    content: '';
+    position: absolute;
+    bottom: 0; left: 50%;
+    transform: translateX(-50%);
+    width: 100px; height: 2px;
+    background-color: #655146;
+}
+.content .title h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.content .title p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+.best{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.best li{
+    width: 32%;
+    text-align: center;
+    border: 1px solid #362C2B;
+    box-sizing: border-box;
+    padding: 5%;
+}
+.best li figure{
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+}
+.best li figure img{
+    width: 100%;
+    height: 100%;
+}
+.best li span{
+    color: #B0A345;
+    display: block;
+    margin-bottom: 20px;
+}
+.best li strong{
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+    display: block;
+    margin-bottom: 20px;
+}
+.best li a{
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+}
+.btn_all{
+    margin: 50px auto 0;
+    display: block;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #362C2B;
+    color: #fff;
+    text-align: center;
+}
+/* .content */
+
+
+
+
+.sc_visual{
+    background: url(../img/brand_bg.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 100px;
+    position: relative;
+}
+.sc_visual .title{
+    position: absolute;
+    left: 100px; top: 50%;
+    transform: translateY(-50%);
+}
+.sc_visual .title strong{
+    display: block;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.sc_visual .title p{
+    font-size: 20px;
+    font-weight: 300;
+    width: 80%;
+    line-height: 1.6;
+    color: #ffffffb2;
+}
+/* .sc_visual */
+
+
+
+
+.new{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.new li{
+    width: 32%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.new li figure{
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+}
+.new li figure img{
+    width: 100%;
+    height: 100%;
+}
+.new li span{
+    color: #B0A345;
+    display: block;
+    margin-bottom: 20px;
+}
+.new li strong{
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+    display: block;
+    margin-bottom: 20px;
+}
+.new li a{
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+}
+
+
+
+
+/* content3 */
+.img_area{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.img_area div{
+    width: 30%;
+}
+.img_area div img{
+    width: 100%;
+    height: auto;
+
+}
+.img_area div figure{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.img_area div figure p{
+    color: #fff;
+    position: absolute;
+    left: 20px; bottom: 5%;
+    opacity: 0;
+    font-size: 15px;
+    z-index: 1;
+}
+.img_area div figure p strong{
+    display: block;
+    margin-bottom: 5px;
+}
+.img_area div figure:hover::after{
+    height: 40%;
+}
+.img_area div figure:hover p{
+    opacity: 1;
+    transition: all 0.6s;
+}
+.img_area div figure::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0; bottom: 3px;
+    background-color: #00000075;
+    transition: all 0.4s;
+}
+
+
+/* footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+footer .f_inner{
+    padding: 4% 5%;
+    color: #ffffffbd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .f_inner .left{
+    width: 40%;
+}
+footer .f_inner .right{
+    width: 20%;
+    text-align: right;
+}
+footer .f_inner span{
+    color: darkgoldenrod;
+}
+footer .f_inner .tel{
+    font-size: 40px;
+    font-weight: 600;
+}
+footer .f_inner .f_logo{
+    margin-bottom: 20px;
+}
+footer .f_inner p{
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+footer .m_footer{
+    display: none;
+}
